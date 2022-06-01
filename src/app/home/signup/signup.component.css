@@ -1,0 +1,122 @@
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+ 
+  input{
+	  width:80%;
+	 
+	 
+  }
+  input[type=text]{
+	  padding:10px;
+	  border:#00bfff;
+	  color:rgb(0, 191, 255);
+	  border-radius:10px;
+	  border: 1px solid #BFBFBF;
+	   font-size:15px;
+	  
+  }
+  input[type=number]{
+	  padding:10px;
+	  border:#00bfff;
+	 color:rgb(0, 191, 255);
+	  border-radius:10px;
+	  border: 1px solid #BFBFBF;
+	  font-size:15px;
+  }
+   input[type=email]{
+	  padding:10px;
+	 border:#00bfff;
+     color:rgb(0, 191, 255);
+	  border-radius:10px;
+	  border: 1px solid #BFBFBF;
+	   font-size:15px;
+  }
+   label {
+     display: inline-block;
+     width: 100px;
+     text-align: left;
+	 
+   }​ 
+   label, input {
+    flex-basis:100px;
+}
+div{
+	padding:8px;
+}
+   .box{
+      margin:0 auto; 
+      width:450px;
+      height:auto;
+      padding:5px;
+      background-color:white;
+      border:2px solid 	#B22222 ;
+      margin-top: 25px;
+      border-radius: 10px;
+	  text-align:center;
+	  position:center;
+    }
+   .header{
+	   text-align:center;
+	   position:center;
+   }
+   .form{
+	 padding: 10px 10px 10px 10px;
+	  padding-left:10px;
+   }
+   .row3{
+	  text-align:center;
+  
+   }
+   button{
+	   width:25%;
+	   height:25%;
+	   color:white;
+	   font-size:20px;
+	   padding:5px;
+	   background-color:rgb(235, 118, 76);
+	   border: none;
+     border-radius: 10px;
+	  margin:5px;
+   }
+   button:hover{
+	    cursor:pointer;
+	  background-color:	#F08080;
+      color:white;
+      box-shadow : 0 8px 16px 0 	#FA8072, 
+                      0 6px 20px  0 	#FA8072;
+   }
+   /*.awsome_input{
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  display: block;
+}
+.awsome_input_border{
+  display:inline-block;
+  width:0px;
+  height: 2px;
+  background: #FEC938;
+  position: relative;
+  top:-5px;
+  -webkit-transition: all ease-in-out .15s;
+  -o-transition: all ease-in-out .15s;
+  transition: all ease-in-out .15s;
+}
+.awsome_input:hover,
+.awsome_input:active, 
+.awsome_input:focus{
+  outline: none;
+}
+.awsome_input:hover+.awsome_input_border,
+.awsome_input:active+.awsome_input_border, 
+.awsome_input:focus+.awsome_input_border{
+  width:100%;
+  
+}*/
+   
+  
+  

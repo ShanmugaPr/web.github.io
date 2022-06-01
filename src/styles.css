@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px){
+    li {
+        display: block;
+        margin: 5px 0px;
+    }
+  
+  body{
+      width: 100%;
+      margin:0;
+      
+      font-family:Arial, Helvetica, sans-serif,Verdana,'Muli';
+      overflow-x: hidden;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+}

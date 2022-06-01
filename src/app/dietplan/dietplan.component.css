@@ -1,0 +1,278 @@
+.header-nav{
+      width:100%;
+      height:100px;
+      background-color:rgb(49, 110, 100);
+      padding:1em; 
+    }
+    .left{
+      width:25%;
+      float: left;
+      padding: 10px; 
+      
+    }
+    .right1{
+      width:45%;
+      float: left;
+      padding: 10px;
+      font-family: 'Courier New', Courier, monospace;  
+    }
+    .right1 a{
+      color:white;
+     text-decoration: none;
+    }
+    .right1 li{
+      float:left;
+      list-style: none;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .right1 li :hover{
+      color:rgb(250, 199, 106);
+     
+    }
+    .right1 li a.active{
+      color:rgb(250, 199, 106);
+    }
+    .right2{
+      width: 25%;
+      float:left;
+      height:100px; 
+      padding-top:20px;
+    }
+    .right2 a{
+        margin-left:60px;
+        text-align: center;
+        border: none; 
+        padding:10px 30px;
+        background-color:rgb(243, 121, 77) ;
+        color:white;
+        text-decoration:none;
+        transition:0.6s ease;
+        cursor: pointer;
+        transform: translate(-50%,-50%);
+        font-family: cursive;
+        border-radius: 5px;
+      }
+      .right2 a:hover{
+        background-color:rgb(235, 118, 76);
+        color:black;
+        box-shadow : 0 8px 16px 0 white, 
+                        0 6px 20px  0 white; 
+      }
+    .right1:after,.right2:after, .left:after {
+      content: "";
+      display: table;
+      clear: both;
+      }
+    .container{
+        width:100%;
+        height:auto;
+       
+    }
+    .row1{
+        width:100%;
+        /*float:left;*/
+        height:100px; 
+        padding: 10px;    
+    }
+    .tag h2{
+        width:50%;
+        padding-left: 5%;
+        color:rgb(57, 129, 117);
+    }
+    .row2{
+        width:100%;
+        padding: 10px; 
+        padding-left: 20px;
+    }
+     
+    .pic-nav1{
+        width:100%;
+        display:inline-flex;
+        justify-content: center; 
+    }
+    .column-1 label{
+      padding:30px;
+      font-weight:bold;
+      color:rgb(238, 105, 105);
+    }
+    .column-1{
+       float: left;
+       width:30%;
+       height:auto;
+       padding: 10px;
+       vertical-align: middle;
+    }
+    .column-1 img{
+       opacity: 0.8; 
+       cursor: pointer; 
+       transform: scale(1);
+       transition: all .6s ease-out 0s; 
+       border-radius: 15px; 
+    }
+    .column-1 img:hover{
+        opacity: 1;
+        border: 1px solid rgb(23, 197, 168);
+        box-shadow : 0 8px 16px 0 rgb(15, 133, 113), 
+                        0 6px 20px  0 rgb(11, 104, 88);
+    }
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    .row3{
+        width:100%;
+        padding: 10px; 
+        padding-left: 20px;
+    } 
+    .pic-nav2{
+        width:100%;
+        display:inline-flex;
+        justify-content: center;
+    }
+    .column-2 label{
+      font-weight:bold;
+      color:rgb(238, 105, 105);
+    }
+    .column-2{
+        float: left;
+        width:30%;
+        height:auto;
+        padding: 10px;
+        vertical-align:middle;
+     }
+     .column-2 img{
+        opacity: 0.8; 
+        cursor: pointer; 
+        transform: scale(1);
+        transition: all .6s ease-out 0s;
+        border-radius: 15px;   
+     }
+     .column-2 img:hover{
+         opacity: 1;
+         border: 1px solid rgb(23, 197, 168);
+         box-shadow : 0 8px 16px 0 rgb(15, 133, 113), 
+                         0 6px 20px  0 rgb(11, 104, 88);
+     }
+    .row3:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    .row4{
+        width:100%;
+        
+        padding-left: 20px;
+    } 
+    .pic-nav3{
+        width:100%;
+        display:inline-flex;
+       justify-content: center;
+    }
+    .column-3 label{
+      font-weight:bolder;
+      color:rgb(238, 105, 105);
+      
+    }
+    .column-3{
+        float: left;
+        width:30%;
+        height:auto;
+        padding: 10px;
+        vertical-align: top;
+         
+     }
+     .column-3 img{
+        opacity: 0.8; 
+        cursor: pointer; 
+        transform: scale(1);
+        transition: all .6s ease-out 0s;
+        border-radius: 15px;  
+     }
+     .column-3 img:hover{
+         opacity: 1;
+         border: 1px solid rgb(23, 197, 168);
+         box-shadow : 0 8px 16px 0 rgb(15, 133, 113), 
+                         0 6px 20px  0 rgb(11, 104, 88);
+     }
+    .row4:after {
+        content: "";
+        display: table;
+        clear: both;
+      }  
+    
+      .row5{
+        width:100%;
+        background-color: rgb(49, 110, 100);
+      }
+      .column-a{
+        float:left;
+        width:15%;
+      }
+      .column-a img{
+        padding: 20px;
+      }
+      .column-b{
+        float:left;
+        width:20%;
+      }
+      .column-b h1{
+        color:white;
+        font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     .column-b li{
+      color:white;
+      list-style: none;
+      padding: 5px;
+      font-family: cursive;
+    }
+    .column-b li :hover{
+      color:rgb(150, 235, 207);
+     
+    }
+      .column-c{
+        float:left;
+        width:30%;
+      }
+      .column-c h1{
+        color: white;
+        font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .column-c button{
+        background-color: rgb(243, 121, 77);
+        font-family: cursive;
+      }
+      .column-c button:hover{
+        background-color:rgb(235, 118, 76);
+        color:black;
+        box-shadow : 0 8px 16px 0 white, 
+                        0 6px 20px  0 white; 
+      }
+      .column-d{
+        float:left;
+        width:30%;
+      }
+     
+      .column-d h1{
+        color:white;
+        font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .column-d p{
+        color:white;
+        font-family: cursive;
+        
+      }
+      .icon img{
+        padding: 3px;
+        width:8%;
+        height:8%;
+        border-radius: 30px;
+      }
+      .row5:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
